@@ -54,7 +54,7 @@ extension ViewController {
             case .success(let transactions):
                 self.label.text = "The number of transaction is \(transactions.count)"
             case .failure(let error):
-                print(error)
+                print("Here is the error: \(error)")
             }
         }
     }
